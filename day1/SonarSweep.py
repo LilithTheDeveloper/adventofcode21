@@ -1,6 +1,8 @@
+import os.path
+
 number_lines = []
 
-with open('D:\\Development\\advent-of-code\\adventofcode21\\day1\\input.txt') as f:
+with open('adventofcode21\day1\input.txt') as f:
     lines = f.readlines()
     lines = [line.rstrip() for line in lines]
     number_lines = [int(x) for x in lines]
